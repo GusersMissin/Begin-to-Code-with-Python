@@ -1,22 +1,16 @@
-print(ord('W'))
+print('The answer is: ')
+print(2+2)
 
-#print(ord(W))
-#Exception has occurred: NameError
+print('The answer is:', 2+2)
 
-print(chr(87))
+# Broken programs
+# SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+# print('The answer is: '}
+# print(2+2)
 
-print(chr(88))
+# print('The answer is: ')
+# Exception has occurred: NameError
+# Print(2+2)
 
-print(bin(87))
-
-print(bin(0))
-
-print(bin(1))
-
-print(bin(2))
-
-print(bin(3))
-
-print(bin(86))
-
-print(bin(87))
+print('The answer is:', 2+2)
+# ('The answer is:',4)
