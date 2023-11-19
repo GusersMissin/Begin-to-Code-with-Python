@@ -1,14 +1,22 @@
-print('hello' + ' world')
+print(ord('W'))
 
-# print('hello)
-# SyntaxError: EOL while scanning string literal
+#print(ord(W))
+#Exception has occurred: NameError
 
-# print('hello' - ' World')
-# Exception has occurred: TypeError
+print(chr(87))
 
-# print('hello' + 2)
-# TypeError: unsupported operand type(s) for -: 'str' and 'str'
+print(chr(88))
 
-print('hello' + '2')
+print(bin(87))
 
-print('hello' * 3)
+print(bin(0))
+
+print(bin(1))
+
+print(bin(2))
+
+print(bin(3))
+
+print(bin(86))
+
+print(bin(87))
